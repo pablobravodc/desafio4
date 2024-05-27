@@ -1,0 +1,24 @@
+# Instrucciones para usar la API REST
+
+1. **Login**:
+   - **URL**: [POST] http://localhost:3000/login
+   - **Body**: 
+     ```json
+     {
+       "username": "user",
+       "password": "password"
+     }
+     ```
+   - **Response**: { "token": "your_jwt_token" }
+
+2. **Dashboard**:
+   - **URL**: [GET] http://localhost:3000/dashboard
+   - **Headers**: { "Authorization": "Bearer your_jwt_token" }
+   - **Response**: { "message": "Welcome to the dashboard", "user": "user_data" }
+
+3. **Detail**:
+   - **URL**: [GET] http://localhost:3000/detail/:id
+   - **Headers**: { "Authorization": "Bearer your_jwt_token" }
+   - **Response**: { "message": "Details for ID: your_id", "user": "user_data" }
+
+4. **Nota**: El token expira en 1 minuto, deberá autenticarse nuevamente si expira.

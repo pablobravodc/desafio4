@@ -1,0 +1,9 @@
+- Enlace para visualizar la planificación del diseño de la API REST:
+https://lucid.app/lucidchart/1ed07aa5-a0f8-42ac-aad1-5f10d9242889/edit?viewport_loc=81%2C1198%2C1528%2C660%2C0_0&invitationId=inv_84c5f1cf-5b32-406e-ae44-dd5008ffb46e
+
+- Enlace de documentación API REST:
+https://documenter.getpostman.com/view/35208000/2sA3Qs9BY3
+
+- Enlace del proyecto publicado en railway.app:
+https://desafio4-production.up.railway.app/
+

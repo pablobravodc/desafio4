@@ -11,6 +11,11 @@ const loginRoute = require('./routes/login');
 const dashboardRoutes = require('./routes/dashboard');
 const detailRoutes = require('./routes/detail');
 
+// Ruta raíz
+app.get('/', (req, res) => {
+  res.send('Bienvenido a mi API REST');
+});
+
 app.use('/login', loginRoute);
 app.use('/dashboard', dashboardRoutes);
 app.use('/detail', detailRoutes);
